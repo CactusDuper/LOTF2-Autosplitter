@@ -30,8 +30,6 @@ state("LOTF2-Win64-Shipping", "v.1.1.216 Steam")
 
 init
 {
-	vars.hasStarted = false;
-	
 	// Turn on to get memory size for latest patch. Will be used to identify version number. Don't forget to change the directory!
 	// System.IO.File.WriteAllText(@"C:\Your\Directory\Here\modulesize.txt", "ModuleMemorySize: " + modules.First().ModuleMemorySize.ToString());
 	
@@ -58,19 +56,12 @@ start
 {
 	if (current.movementBase != 0 && current.levelFGUID == 0x406142711F68AD07)
 	{
-		vars.hasStarted = true;
 		return true;
 	}
 }
 
 update
 {
-	// Reset variables when the timer is reset.
-	if (timer.CurrentPhase == TimerPhase.NotRunning)
-	{
-		vars.hasStarted = false;
-	}
-
 }
 
 split
