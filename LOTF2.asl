@@ -11,14 +11,14 @@ state("LOTF2-Win64-Shipping", "v.1.1.282 Steam")
 {
 	long movementBase	: 0x08828DE0, 0x30, 0x2F0, 0x340; // LocalPlayer -> Controller -> Character -> MovementBase;
 	byte loadingState	: 0x08828DE0, 0x30, 0x2F0, 0x2C0, 0x582; // LocalPlayer -> Controller -> Character -> PlayerState -> LoadingState;
-	ulong levelFGUID	: 0x08828DE0, 0x30, 0x20, 0x210; // GWorld -> PersistentLevel -> LevelBuildDataId;
+	ulong levelFGUID	: 0x08828DE0, 0x30, 0x20, 0x210; // LocalPlayer -> Controller -> Outer (PersistentLevel) -> LevelBuildDataId;
 }
 
 state("LOTF2-Win64-Shipping", "v.1.1.249 Steam")
 {
 	long movementBase	: 0x08827FE0, 0x30, 0x2F0, 0x340; // LocalPlayer -> Controller -> Character -> MovementBase;
 	byte loadingState	: 0x08827FE0, 0x30, 0x2F0, 0x2C0, 0x582; // LocalPlayer -> Controller -> Character -> PlayerState -> LoadingState;
-	ulong levelFGUID	: 0x08827FE0, 0x30, 0x20, 0x210; // GWorld -> PersistentLevel -> LevelBuildDataId;
+	ulong levelFGUID	: 0x08827FE0, 0x30, 0x20, 0x210; // LocalPlayer -> Controller -> Outer (PersistentLevel) -> LevelBuildDataId;
 }
 
 state("LOTF2-Win64-Shipping", "v.1.1.243 Steam")
@@ -39,28 +39,28 @@ state("LOTF2-Win64-Shipping", "v.1.1.231 Steam")
 {
 	long movementBase	: 0x08820BE0, 0x30, 0x2F0, 0x340; // LocalPlayer -> Controller -> Character -> MovementBase;
 	byte loadingState	: 0x08820BE0, 0x30, 0x2F0, 0x2C0, 0x582; // LocalPlayer -> Controller -> Character -> PlayerState -> LoadingState;
-	ulong levelFGUID	: 0x08820BE0, 0x30, 0x20, 0x210; // GWorld -> PersistentLevel -> LevelBuildDataId;
+	ulong levelFGUID	: 0x08820BE0, 0x30, 0x20, 0x210; // LocalPlayer -> Controller -> Outer (PersistentLevel) -> LevelBuildDataId;
 }
 
 state("LOTF2-Win64-Shipping", "v.1.1.224 Steam")
 {
 	long movementBase	: 0x08821BE0, 0x30, 0x2F0, 0x340; // LocalPlayer -> Controller -> Character -> MovementBase;
 	byte loadingState	: 0x08821BE0, 0x30, 0x2F0, 0x2C0, 0x582; // LocalPlayer -> Controller -> Character -> PlayerState -> LoadingState;
-	ulong levelFGUID	: 0x08821BE0, 0x30, 0x20, 0x210; // GWorld -> PersistentLevel -> LevelBuildDataId;
+	ulong levelFGUID	: 0x08821BE0, 0x30, 0x20, 0x210; // LocalPlayer -> Controller -> Outer (PersistentLevel) -> LevelBuildDataId;
 }
 
 state("LOTF2-Win64-Shipping", "v.1.1.217 Steam")
 {
 	long movementBase	: 0x0881EB60, 0x30, 0x2F0, 0x340; // LocalPlayer -> Controller -> Character -> MovementBase;
 	byte loadingState	: 0x0881EB60, 0x30, 0x2F0, 0x2C0, 0x582; // LocalPlayer -> Controller -> Character -> PlayerState -> LoadingState;
-	ulong levelFGUID	: 0x0881EB60, 0x30, 0x20, 0x210; // GWorld -> PersistentLevel -> LevelBuildDataId;
+	ulong levelFGUID	: 0x0881EB60, 0x30, 0x20, 0x210; // LocalPlayer -> Controller -> Outer (PersistentLevel) -> LevelBuildDataId;
 }
 
 state("LOTF2-Win64-Shipping", "v.1.1.216/219 Steam")
 {
 	long movementBase	: 0x0881DB60, 0x30, 0x2F0, 0x340; // LocalPlayer -> Controller -> Character -> MovementBase;
 	byte loadingState	: 0x0881DB60, 0x30, 0x2F0, 0x2C0, 0x582; // LocalPlayer -> Controller -> Character -> PlayerState -> LoadingState;
-	ulong levelFGUID	: 0x0881DB60, 0x30, 0x20, 0x210; // GWorld -> PersistentLevel -> LevelBuildDataId;
+	ulong levelFGUID	: 0x0881DB60, 0x30, 0x20, 0x210; // LocalPlayer -> Controller -> Outer (PersistentLevel) -> LevelBuildDataId;
 }
 
 state("LOTF2-Win64-Shipping", "v.1.1.214 Steam")
@@ -74,7 +74,7 @@ state("LOTF2-Win64-Shipping", "v.1.1.207 Steam")
 {
 	long movementBase	: 0x088198E0, 0x30, 0x2F0, 0x340; // LocalPlayer -> Controller -> Character -> MovementBase;
 	byte loadingState	: 0x088198E0, 0x30, 0x2F0, 0x2C0, 0x582; // LocalPlayer -> Controller -> Character -> PlayerState -> LoadingState;
-	ulong levelFGUID	: 0x088198E0, 0x30, 0x20, 0x210; // GWorld -> PersistentLevel -> LevelBuildDataId;
+	ulong levelFGUID	: 0x088198E0, 0x30, 0x20, 0x210; // LocalPlayer -> Controller -> Outer (PersistentLevel) -> LevelBuildDataId;
 }
 
 state("LOTF2-Win64-Shipping", "v.1.1.203 Steam")
@@ -88,7 +88,7 @@ state("LOTF2-Win64-Shipping", "v.1.1.199 Steam")
 {
 	long movementBase	: 0x088176E0, 0x30, 0x2F0, 0x340; // LocalPlayer -> Controller -> Character -> MovementBase;
 	byte loadingState	: 0x088176E0, 0x30, 0x2F0, 0x2C0, 0x582; // LocalPlayer -> Controller -> Character -> PlayerState -> LoadingState;
-	ulong levelFGUID	: 0x088176E0, 0x30, 0x20, 0x210; // GWorld -> PersistentLevel -> LevelBuildDataId;
+	ulong levelFGUID	: 0x088176E0, 0x30, 0x20, 0x210; // LocalPlayer -> Controller -> Outer (PersistentLevel) -> LevelBuildDataId;
 }
 
 state("LOTF2-Win64-Shipping", "v.1.1.193/195 Steam")
@@ -109,7 +109,7 @@ state("LOTF2-Win64-Shipping", "v.1.1.184 Steam")
 {
 	long movementBase	: 0x08814560, 0x30, 0x2F0, 0x340; // LocalPlayer -> Controller -> Character -> MovementBase;
 	byte loadingState	: 0x08814560, 0x30, 0x2F0, 0x2C0, 0x582; // LocalPlayer -> Controller -> Character -> PlayerState -> LoadingState;
-	ulong levelFGUID	: 0x08814560, 0x30, 0x20, 0x210; // GWorld -> PersistentLevel -> LevelBuildDataId;
+	ulong levelFGUID	: 0x08814560, 0x30, 0x20, 0x210; // LocalPlayer -> Controller -> Outer (PersistentLevel) -> LevelBuildDataId;
 }
 
 init
